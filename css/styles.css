@@ -1,0 +1,177 @@
+/*общие стили*/
+:root {--hero-footer-background-color:#2F303A;
+      --main-text-color: #757575;
+      --title-text-color: #212121; 
+      --hover-focus-link-color: #2196F3;  
+       }
+body {
+    font-family: Roboto, Tahoma, sans-serif ;
+    color: var(--main-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.btn {
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*Верх сайта*/
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.header-logo {
+font-family: Raleway, Tahoma, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+.logo-web {
+color: #2196F3;
+}
+.contacts-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+.header-link:hover,
+.contacts-link:hover,
+.header-link:focus,
+.contacts-link:focus {
+  color: var(--hover-focus-link-color);
+}
+
+
+/*Секция с банером*/
+.hero {
+background: var(--hero-footer-background-color);
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-btn {
+font-family: Roboto,Tahoma, sans-serif ;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+}
+
+/*Привилегии компании*/
+.benefits-title {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color);  
+}
+.benefits-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+/* Направления деетельности */
+
+.duties-title,
+.team-title {
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+/* Список работников */
+.team {
+  background: #F5F4FA;
+}
+.team-title-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.team-text {
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+
+}
+/* Подвал страницы */
+.footer {
+background: var(--hero-footer-background-color);
+}
+.footer-logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+ .footer-address {
+font-style: normal;
+ }
+.footer-list .contacts-link:hover,
+.footer-list .contacts-link:focus{
+color: #FFFFFF;
+}
+
+ /*Портфолио*/
+.portfolio-btn {
+font-family: Roboto, Tahoma, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: #F5F4FA;}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+  color: #FFFFFF;
+  background: #2196F3;
+}
+
+.portfolio-title {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+.portfolio-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
